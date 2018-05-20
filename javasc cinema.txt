@@ -1,0 +1,41 @@
+<html>
+<body>
+
+<h2>QA Cinema</h2>
+
+<p>Cinema Ticket Transaction</p>
+
+
+<p id="cin1"></p>
+<p id="cin2"></p>
+
+<script>
+
+var standard = 8;
+var oap = 6;
+var student = 6;
+var child = 4;
+
+var qtySta = 1;
+var qtyO = 0;
+var qtyStu = 1;
+var qtyC = 1;
+
+var qty = qtySta + qtyO + qtyStu + qtyC;
+var Total = (qtySta*standard) + (qtyO*oap) + (qtyStu*student) + (qtyC*child);
+
+	document.getElementById('cin1').innerHTML = Date()
+
+	function if Date() == Wed {
+	Total = Total - 2*qty;
+	}
+
+
+	document.getElementById("cin2").innerHTML = "The total is: " + Total;
+    
+
+
+</script>
+
+</body>
+</html>
