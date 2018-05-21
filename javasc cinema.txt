@@ -1,11 +1,11 @@
 <html>
-<body>
+<style>
 body {
-    background-color: red;
+    background-color: lightblue;
 }
 
 h2 {
-    color: white;
+    color: Red;
     text-align: center;
 }
 
@@ -13,6 +13,8 @@ p {
     font-family: verdana;
     font-size: 20px;
 
+</style>
+<body>
 
 <h2>QA Cinema</h2>
 
@@ -21,7 +23,6 @@ p {
 
 <p id="cin1"></p>
 <p id="cin2"></p>
-
 <script>
 
 var standard = 8;
@@ -38,9 +39,7 @@ var qty = qtySta + qtyO + qtyStu + qtyC;
 var Total = (qtySta*standard) + (qtyO*oap) + (qtyStu*student) + (qtyC*child);
 
 	document.getElementById('cin1').innerHTML = Date()
-	Function if Date() == Wed {
-	Total = Total - 2*qty;
-	}
+
 
 	document.getElementById("cin2").innerHTML = "The total is: " + Total;
     
